@@ -1,0 +1,62 @@
+{
+    "summary": {
+        "label": "SUMMARY",
+        "detail": "Enthusiastic multi faceted full stack software professional with 5 years of experience. Self motivated ,bilingual software developer with customer-driven nature and focus on working as part of team or an individual contributor."
+    },
+    "experience": {
+        "label": "EXPERIENCE",
+        "comp_1": {
+            "name": "Tech Mahindra",
+            "pos": "Software Engineer",
+            "duration": "Aug 2014 - Oct 2016"
+        },
+        "comp_2": {
+            "name": "Scientific Games",
+            "pos": "Senior Software Engineer",
+            "duration": "Oct 2016 - Aug 2018 "
+        },
+        "comp_3": {
+            "name": "Alten India",
+            "pos": "Senior Software Engineer",
+            "duration": "August 2018 - March 2020"
+        },
+        "comp_4": {
+            "name": "Airbus",
+            "pos": "System Engineer",
+            "duration": "Apr 2020 - Present"
+        }
+    },
+    "education": {
+        "degree":{
+            "college_name":"Dr.Ambedkar Institute Of Technology,Bangalore",
+            "duration":"July 2010 - June 2014",
+            "subject":"Computer Science and Technology",
+            "award":"Bachelor of Engineering"
+        },
+        "puc":{
+            "college_name":"St Claret College,Bangalore",
+            "duration":"Sept 2008 - July 2010",
+            "subject":"PCMC",
+            "award":"Computer Science"
+        },
+        "school":{
+            "college_name":"Bhoruka English School,Bangalore",
+            "duration":"June 1998 - Jun 2008",
+            "subject":"School",
+            "award":"High School"
+        }
+    
+    },
+    "name":"Syed Hameed K",
+    "current_position":"System Engineer",
+    "language_label":"LANGUAGE",
+    "personal_label":"PERSONAL",
+    "current_place":"Bangalore,India",
+    "contact":{
+        "label":"CONTACT",
+        "emailid":"kshameed7@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/syedhameed/",
+        "github":"https://github.com/hameedshk",
+        "stackoverflow":"https://stackoverflow.com/users/6086968/hameed-syed"
+    }
+}

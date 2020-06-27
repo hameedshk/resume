@@ -1,43 +1,38 @@
 <div class="wrapper">
     <div class="main-wrapper">
         <section class="section summary-section">
-            <h2 class="section-title"><i class="fa fa-user"></i>SUMMARY</h2>
+            <h2 class="section-title"><i class="fa fa-user"></i>{{'summary.label' | translate }}</h2>
             <p>
-                Enthusiastic multi faceted full stack software professional with 5 years of experience. Self motivated
-                Bilingual software developer with customer-driven nature and focus on working as part of team or an
-                individual contributor.
+                {{'summary.detail' | translate}}
             </p>
         </section>
         <div class="resume">
             <div class="func">
                 <div class="work">
-                    <h3 style="color: #2980B9;"><i class="fa fa-briefcase"></i>EXPERIENCE</h3>
+                    <h3 style="color: #2980B9;"><i class="fa fa-briefcase"></i>{{ 'experience.label'  | translate }}
+                    </h3>
                     <ul>
-                        <li>System Engineer<small>Airbus ,Bangalore</small><small>
-                                April 2020 -
-                                Present</small></li>
-                        <li>Senior Software Engineer<br>Full Stack<small>Alten India ,Bangalore</small><small>August
-                                2018 -
-                                March 2020</small></li>
-                        <li><span>Senior Software Engineer</span><small>Scientific Games</small><small>Oct 2016 -
-                                Aug 2018 ,Bangalore</small></li>
-                        <li><span>Software Engineer</span><small>Tech Mahindra</small><small>Aug 2014 - Oct
-                                2016 ,Bangalore</small>
+                        <li>{{ 'experience.comp_4.pos' | translate}}<small>{{ 'experience.comp_4.name' | translate}}</small>
+                            <small> {{ 'experience.comp_4.duration' | translate}}</small></li>
+                        <li>{{ 'experience.comp_3.pos' | translate}}<small>{{ 'experience.comp_3.name' | translate}}</small>
+                            <small> {{ 'experience.comp_3.duration' | translate}}</small></li>
+                        <li><span>{{ 'experience.comp_2.pos' | translate}}</span><small>{{ 'experience.comp_2.name' | translate}}</small>
+                            <small>{{ 'experience.comp_2.duration' | translate}}</small></li>
+                        <li><span>{{ 'experience.comp_1.pos' | translate}}</span><small>{{ 'experience.comp_1.name' | translate}}</small>
+                            <small> {{ 'experience.comp_1.duration' | translate}}</small>
                         </li>
                     </ul>
                 </div>
                 <div class="edu">
                     <h3 style="color: #2980B9;"><i class="fa fa-graduation-cap"></i>EDUCATION</h3>
                     <ul>
-                        <li>Bachelor of Engineering<br>Computer Science and Technology<small>Dr.Ambedkar Institute
-                                Of Technology
-                                ,Bangalore</small><small>July 2010 - June. 2014</small></li>
-                        <li><span>Computer Science</span><small>St Claret College,Bangalore</small><small>Sept 2008
-                                -
-                                July 2010</small></li>
-                        <li><span>High School</span><small>Bhoruka English School,Bangalore</small><small>June 1998
-                                -
-                                Jun 2008</small></li>
+                        <li>{{ 'education.degree.award' | translate}} 
+                            <small>{{ 'education.degree.college_name' | translate}}</small><small>{{ 'education.degree.duration' | translate}}</small>
+                        </li>
+                        <li><span>{{ 'education.puc.award' | translate}} </span><small>{{ 'education.puc.college_name' | translate}} </small>
+                            <small>{{ 'education.puc.duration' | translate}}</small></li>
+                        <li><span>{{ 'education.school.award' | translate}}</span><small>{{ 'education.school.college_name' | translate}}</small>
+                            <small>{{ 'education.school.duration' | translate}}</small></li>
                     </ul>
                 </div>
             </div>
@@ -210,8 +205,8 @@
     </div>
     <div class="sidebar-wrapper">
         <div class="profile-container">
-            <h1 class="name">Syed Hameed K</h1>
-            <h3 class="tagline">System Engineer</h3>
+            <h1 class="name">{{ 'name' | translate}}</h1>
+            <h3 class="tagline">{{ 'current_position' | translate}}</h3>
         </div>
         <div class="container-block">
             <div class="language-selector">
@@ -219,11 +214,12 @@
                     action="file:///E:/website/Home%20-%20Syed%20Hameed.html">
                     <label class="text-center container-block-title" style="display: block;"
                         for="requestCulture_RequestCulture_UICulture_Name"><i class="fa fa-globe"></i>
-                        Language</label>
-                    <select name="culture" onchange="this.form.submit();" class="form-control"
+                        {{ 'language_label' | translate}}</label>
+                    <select name="culture" (change)="useLanguage($event.target.value)" class="form-control"
                         id="requestCulture_RequestCulture_UICulture_Name">
                         <option selected="selected" value="en">English</option>
                         <option value="hi">Hindi</option>
+                        <option value="fr">French</option>
                     </select>
                 </form>
             </div>
@@ -235,20 +231,20 @@
                     title="profile for Hameed Syed at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
         </div>
         <div class="container-block">
-            <h2 class="container-block-title">Personal</h2>
+            <h2 class="container-block-title">{{ 'personal_label' | translate}}</h2>
             <ul class="list-group">
                 <li class="list-group-item"><i class="fa fa-calendar"></i>{{birthdate|date: 'dd-MM-yyyy'}} ({{age}})
                 </li>
-                <li class="list-group-item"><i class="fa fa-globe"></i>Bangalore, India</li>
+                <li class="list-group-item"><i class="fa fa-globe"></i>{{ 'current_place' | translate}}</li>
             </ul>
         </div>
         <div class="contact-container container-block">
-            <h2 class="container-block-title">Contact</h2>
+            <h2 class="container-block-title">{{ 'contact.label' | translate}}</h2>
             <ul class="list-group">
                 <li class="list-group-item"><i class="fa fa-envelope"></i><a
                         href="mailto:kshameed7@gmail.com">kshameed7@gmail.com</a></li>
                 <li class="list-group-item"><i class="fa fa-linkedin"></i><a
-                        href="https://www.linkedin.com/in/hameed-syed-b057107b" target="_blank" rel="noopener">Linked
+                        click="linksResolve('li')" target="_blank" rel="noopener">Linked
                         In</a></li>
                 <li class="list-group-item"><i class="fa fa-github"></i><a href="https://github.com/hameedshk"
                         target="_blank" rel="noopener">GitHub</a></li>

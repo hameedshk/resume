@@ -27,36 +27,62 @@
         }
     },
     "education": {
-        "degree":{
-            "college_name":"Dr.Ambedkar Institute Of Technology,Bangalore",
-            "duration":"July 2010 - June 2014",
-            "subject":"Computer Science and Technology",
-            "award":"Bachelor of Engineering"
+        "degree": {
+            "college_name": "Dr.Ambedkar Institute Of Technology,Bangalore",
+            "duration": "July 2010 - June 2014",
+            "subject": "Computer Science and Technology",
+            "award": "Bachelor of Engineering"
         },
-        "puc":{
-            "college_name":"St Claret College,Bangalore",
-            "duration":"Sept 2008 - July 2010",
-            "subject":"PCMC",
-            "award":"Computer Science"
+        "puc": {
+            "college_name": "St Claret College,Bangalore",
+            "duration": "Sept 2008 - July 2010",
+            "subject": "PCMC",
+            "award": "Computer Science"
         },
-        "school":{
-            "college_name":"Bhoruka English School,Bangalore",
-            "duration":"June 1998 - Jun 2008",
-            "subject":"School",
-            "award":"High School"
+        "school": {
+            "college_name": "Bhoruka English School,Bangalore",
+            "duration": "June 1998 - Jun 2008",
+            "subject": "School",
+            "award": "High School"
         }
-    
     },
-    "name":"Syed Hameed K",
-    "current_position":"System Engineer",
-    "language_label":"LANGUAGE",
-    "personal_label":"PERSONAL",
-    "current_place":"Bangalore,India",
-    "contact":{
-        "label":"CONTACT",
-        "emailid":"kshameed7@gmail.com",
-        "linkedin":"https://www.linkedin.com/in/syedhameed/",
-        "github":"https://github.com/hameedshk",
-        "stackoverflow":"https://stackoverflow.com/users/6086968/hameed-syed"
+    "name": "Syed Hameed K",
+    "current_position": "System Engineer",
+    "language_label": "LANGUAGE",
+    "personal_label": "PERSONAL",
+    "current_place": "Bangalore,India",
+    "contact": {
+        "label": "CONTACT",
+        "label_linkedin": "Linked In",
+        "label_github": "Github",
+        "label_stackoverflow": "Stackoverflow",
+        "emailid": "kshameed7@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/syedhameed/",
+        "github": "https://github.com/hameedshk",
+        "stackoverflow": "https://stackoverflow.com/users/6086968/hameed-syed",
+        "languages_label": "LANGUAGES"
+    },
+    "label": {
+        "en_label": "English",
+        "hi_label": "Hindi",
+        "native_label": "Native",
+        "professional_label": "Professional",
+        "proffesional_interest": "PROFESSIONAL INTERESTS",
+        "RandD": "Research and Development",
+        "LA": "Learning Architecture solutions",
+        "TP": "Teaching and Philosophy",
+        "hobbies": "HOBBIES",
+        "gaming": "Gaming",
+        "cricket": "Cricket",
+        "movies": "Sci-Fi & comics",
+        "education": "EDUCATION",
+        "experiences": "EXPERIENCES",
+        "skill_profic": "SKILLS & PROFICIENCY",
+        "soft_engin": "Software Engineer",
+        "senior_soft_engin": "Senior Software Engineer",
+        "syst_engin": "System Engineer",
+        "respons": "Responsibilities",
+        "projects": "Projects",
+        "roles": "Roles"
     }
 }

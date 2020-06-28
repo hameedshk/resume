@@ -24,12 +24,14 @@
                     </ul>
                 </div>
                 <div class="edu">
-                    <h3 style="color: #2980B9;"><i class="fa fa-graduation-cap"></i>EDUCATION</h3>
+                    <h3 style="color: #2980B9;"><i class="fa fa-graduation-cap"></i>{{ 'label.education' | translate}}
+                    </h3>
                     <ul>
-                        <li>{{ 'education.degree.award' | translate}} 
+                        <li>{{ 'education.degree.award' | translate}}
                             <small>{{ 'education.degree.college_name' | translate}}</small><small>{{ 'education.degree.duration' | translate}}</small>
                         </li>
-                        <li><span>{{ 'education.puc.award' | translate}} </span><small>{{ 'education.puc.college_name' | translate}} </small>
+                        <li><span>{{ 'education.puc.award' | translate}}
+                            </span><small>{{ 'education.puc.college_name' | translate}} </small>
                             <small>{{ 'education.puc.duration' | translate}}</small></li>
                         <li><span>{{ 'education.school.award' | translate}}</span><small>{{ 'education.school.college_name' | translate}}</small>
                             <small>{{ 'education.school.duration' | translate}}</small></li>
@@ -38,19 +40,19 @@
             </div>
         </div>
         <section class="section experiences-section">
-            <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+            <h2 class="section-title"><i class="fa fa-briefcase"></i>{{ 'label.experiences' | translate}}</h2>
 
             <div class="job-item">
                 <div class="job-summary">
                     <div class="job-heading">
-                        <div class="job-left">Senior Software Engineer</div>
+                        <div class="job-left">{{ 'label.senior_soft_engin' | translate}}</div>
                         <div class=""><a href="https://www.alten.com/country/india/" target="_blank">
                                 Airbus-Alten India</a></div>
                     </div>
                 </div>
                 <div class="job-details">
                     <div class="job-subtitle">
-                        Responsibilities
+                        {{ 'label.respons' | translate}}
                     </div>
                     <ul class="job-list">
                         <li>
@@ -66,7 +68,7 @@
                         </li>
                     </ul>
                     <div class="job-subtitle">
-                        Projects
+                        {{ 'label.projects' | translate}}
                     </div>
                     <ul class="job-list">
                         <li>
@@ -82,14 +84,14 @@
             <div class="job-item">
                 <div class="job-summary">
                     <div class="job-heading">
-                        <div class="job-left">Senior Software Engineer</div>
+                        <div class="job-left">{{ 'label.senior_soft_engin' | translate}}</div>
                         <div class=""><a href="https://www.scientificgames.com" target="_blank">
                                 Scientific Games</a></div>
                     </div>
                 </div>
                 <div class="job-details">
                     <div class="job-subtitle">
-                        Responsibilities
+                        {{ 'label.respons' | translate}}
                     </div>
                     <ul class="job-list">
                         <li>
@@ -107,7 +109,7 @@
                         </li>
                     </ul>
                     <div class="job-subtitle">
-                        Projects
+                        {{ 'label.projects' | translate}}
                     </div>
                     <ul class="job-list">
                         <li>
@@ -131,14 +133,14 @@
             <div class="job-item">
                 <div class="job-summary">
                     <div class="job-heading">
-                        <div class="job-left">Software Engineer</div>
+                        <div class="job-left">{{ 'label.soft_engin' | translate}}</div>
                         <div class=""><a href="https://www.techmahindra.com/" target="_blank">Tech Mahindra</a>
                         </div>
                     </div>
                 </div>
                 <div class="job-details">
                     <div class="job-subtitle">
-                        Roles and Responsibilities
+                        {{ 'label.roles' | translate}} and {{ 'label.respons' | translate}}
                     </div>
                     <ul class="job-list">
                         <li>I was trained in .NET technologies (C#,
@@ -151,7 +153,7 @@
                             well-researched, cost-effective and responsive solutions.</li>
                     </ul>
                     <div class="job-subtitle">
-                        Projects
+                        {{ 'label.projects' | translate}}
                     </div>
                     <ul class="job-list">
                         <li>PriceChange and MarkDown(PCMD)-PCMD known as Price Change Mark Down, an application that
@@ -166,7 +168,7 @@
         </section>
 
         <section class="skills-section section">
-            <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+            <h2 class="section-title"><i class="fa fa-rocket"></i>{{ 'label.skill_profic' | translate}}</h2>
             <div class="skillset">
                 <div class="item">
                     <h3 class="level-title">C# &amp; .NET</h3>
@@ -241,41 +243,43 @@
         <div class="contact-container container-block">
             <h2 class="container-block-title">{{ 'contact.label' | translate}}</h2>
             <ul class="list-group">
-                <li class="list-group-item"><i class="fa fa-envelope"></i><a
-                        href="mailto:kshameed7@gmail.com">kshameed7@gmail.com</a></li>
-                <li class="list-group-item"><i class="fa fa-linkedin"></i><a
-                        click="linksResolve('li')" target="_blank" rel="noopener">Linked
-                        In</a></li>
+                <li class="list-group-item"><i class="fa fa-envelope"></i>
+                    <a href="mailto:kshameed7@gmail.com">{{ 'contact.emailid' | translate}}</a></li>
+                <li class="list-group-item"><i class="fa fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/syedhameed/" target="_blank"
+                        rel="noopener">{{ 'contact.label_linkedin' | translate}}</a></li>
                 <li class="list-group-item"><i class="fa fa-github"></i><a href="https://github.com/hameedshk"
-                        target="_blank" rel="noopener">GitHub</a></li>
+                        target="_blank" rel="noopener">{{ 'contact.label_github' | translate}}</a></li>
                 <li class="list-group-item"><i class="fa fa-stack-overflow"></i><a
-                        href="https://stackoverflow.com/users/6086968/hameed-syed" target="_blank" rel="noopener">Stack
-                        Overflow</a></li>
+                        href="https://stackoverflow.com/users/6086968/hameed-syed" target="_blank"
+                        rel="noopener">{{ 'contact.label_stackoverflow' | translate}}</a></li>
             </ul>
         </div>
         <div class="languages-container container-block">
-            <h2 class="container-block-title">Languages</h2>
+            <h2 class="container-block-title">{{ 'contact.languages_label' | translate}}</h2>
             <ul class="list-group">
-                <li class="list-group-item">Hindi (Native)</li>
-                <li class="list-group-item">English (Professional)</li>
+                <li class="list-group-item">{{ 'label.hi_label' | translate}} ({{ 'label.native_label' | translate}})
+                </li>
+                <li class="list-group-item">{{ 'label.en_label' | translate}}
+                    ({{ 'label.professional_label' | translate}})</li>
             </ul>
         </div>
 
         <div class="interests-container container-block">
-            <h2 class="container-block-title">Professional Interests</h2>
+            <h2 class="container-block-title">{{ 'label.proffesional_interest' | translate}} </h2>
             <ul class="list-group">
-                <li class="list-group-item">Research and Development</li>
-                <li class="list-group-item">Learning Architecture solutions</li>
-                <li class="list-group-item">Teaching and Philosophy</li>
+                <li class="list-group-item">{{ 'label.RandD' | translate}}</li>
+                <li class="list-group-item">{{ 'label.LA' | translate}}</li>
+                <li class="list-group-item">{{ 'label.TP' | translate}}</li>
             </ul>
         </div>
 
         <div class="interests-container container-block">
-            <h2 class="container-block-title">Hobbies</h2>
+            <h2 class="container-block-title">{{ 'label.hobbies' | translate}}</h2>
             <ul class="list-group">
-                <li class="list-group-item">Gaming</li>
-                <li class="list-group-item">Cricket</li>
-                <li class="list-group-item">Movies</li>
+                <li class="list-group-item">{{ 'label.gaming' | translate}}</li>
+                <li class="list-group-item">{{ 'label.cricket' | translate}}</li>
+                <li class="list-group-item">{{ 'label.movies' | translate}}</li>
             </ul>
         </div>
     </div>

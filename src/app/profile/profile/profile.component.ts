@@ -11,11 +11,11 @@ import { TranslateService } from '@ngx-translate/core';
 export class ProfileComponent implements OnInit {
   age: number;
   birthdate: Date = new Date('08-10-1992');
-  constructor(public datepipe: DatePipe,private translate: TranslateService) { 
+  constructor(public datepipe: DatePipe, private translate: TranslateService) {
     translate.setDefaultLang('en');
   }
 
-  
+
   useLanguage(language: string) {
     this.translate.use(language);
   }
@@ -25,8 +25,19 @@ export class ProfileComponent implements OnInit {
     this.age = Math.floor((timeDiff / (1000 * 3600 * 24)) / 365.25);
   }
 
-  linksResolve(link:string){
-    
+  linksResolve(item: string) {
+    let link = '';
+    switch (item) {
+      case 'gmail': 
+      link = 'mailto:kshameed7@gmail.com';
+        break;
+        case 'linkedin': 
+        link = 'https://www.linkedin.com/in/syedhameed/';
+          break;
+      default:
+        break;
+    }
+    return link;
   }
 
 }

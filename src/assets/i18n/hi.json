@@ -27,35 +27,62 @@
         }
     },
     "education": {
-        "degree":{
-            "college_name":"डॉ.अंबेडकर प्रौद्योगिकी संस्थान, बैंगलोर",
-            "duration":"जुलाई 2010 - जून 2014",
-            "subject":"यन्त्रशास्त्र स्नातक कंप्यूटर विज्ञान और प्रौद्योगिकी",
-            "award":"यन्त्रशास्त्र स्नातक कंप्यूटर विज्ञान और प्रौद्योगिकी"
+        "degree": {
+            "college_name": "डॉ.अंबेडकर प्रौद्योगिकी संस्थान, बैंगलोर",
+            "duration": "जुलाई 2010 - जून 2014",
+            "subject": "यन्त्रशास्त्र स्नातक कंप्यूटर विज्ञान और प्रौद्योगिकी",
+            "award": "यन्त्रशास्त्र स्नातक कंप्यूटर विज्ञान और प्रौद्योगिकी"
         },
-        "puc":{
-            "college_name":"सेंट क्लैरट कॉलेज, बैंगलोर",
-            "duration":"सितम्बर 2008 - जुलाई 2010",
-            "subject":"PCMC",
-            "award":"कंप्यूटर विज्ञान"
+        "puc": {
+            "college_name": "सेंट क्लैरट कॉलेज, बैंगलोर",
+            "duration": "सितम्बर 2008 - जुलाई 2010",
+            "subject": "PCMC",
+            "award": "कंप्यूटर विज्ञान"
         },
-        "school":{
-            "college_name":"भोरुका इंग्लिश स्कूल, बैंगलोर",
-            "duration":"जून 1998 - जून 2008",
-            "subject":"School",
-            "award":"उच्च विद्यालय"
+        "school": {
+            "college_name": "भोरुका इंग्लिश स्कूल, बैंगलोर",
+            "duration": "जून 1998 - जून 2008",
+            "subject": "School",
+            "award": "उच्च विद्यालय"
         }
     },
-    "name":"सैयद हमीद के",
-    "current_position":"सिस्टम अभियन्ता",
-    "language_label":"भाषा",
-    "personal_label":"निजी",
-    "current_place":"बंगलौर, भारत",
-    "contact":{
-        "label":"CONTACT",
-        "emailid":"kshameed7@gmail.com",
-        "linkedin":"https://www.linkedin.com/in/syedhameed/",
-        "github":"https://github.com/hameedshk",
-        "stackoverflow":"https://stackoverflow.com/users/6086968/hameed-syed"
+    "name": "सैयद हमीद के",
+    "current_position": "सिस्टम अभियन्ता",
+    "language_label": "भाषा",
+    "personal_label": "निजी",
+    "current_place": "बंगलौर, भारत",
+    "contact": {
+        "label": "संपर्क करें",
+        "label_linkedin": "लिंक्डइन",
+        "label_github": "गो हब",
+        "label_stackoverflow": "स्टैक ओवरफ़्लो",
+        "emailid": "kshameed7@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/syedhameed/",
+        "github": "https://github.com/hameedshk",
+        "stackoverflow": "https://stackoverflow.com/users/6086968/hameed-syed",
+        "languages_label": "भाषाएं"
+    },
+    "label": {
+        "en_label": "अंग्रेज़ी",
+        "hi_label": "हिन्दी",
+        "native_label": "मूल",
+        "professional_label": "पेशेवर",
+        "proffesional_interest": "व्यावसायिक इंटरफ़ेस",
+        "RandD": "अनुसंधान और विकास",
+        "LA": "लर्निंग आर्किटेक्चर समाधान ",
+        "TP": "शिक्षण और दर्शन",
+        "hobbies": "शौक",
+        "gaming": "गेमिंग ",
+        "cricket": "क्रिकेट",
+        "movies": "विज्ञान-कथा और कॉमिक्स",
+        "education": "शिक्षा",
+        "experiences": "अनुभवों",
+        "skill_profic": "कौशल और सुरक्षा ",
+        "soft_engin": "सॉफ्टवेयर इंजीनियर",
+        "senior_soft_engin": "वरिष्ठ सॉफ़्टवेयर इंजीनियर",
+        "syst_engin": "प्रणाली इंजीनियर",
+        "respons": "जिम्मेदारियों ",
+        "projects": "परियोजनाओं ",
+        "roles": "भूमिकाओं"
     }
 }

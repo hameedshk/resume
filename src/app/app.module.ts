@@ -9,7 +9,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
 }
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProfileComponent
   ],
   imports: [
-    BrowserModule,HttpClientModule,
+    BrowserModule, HttpClientModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

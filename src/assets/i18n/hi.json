@@ -84,5 +84,11 @@
         "respons": "जिम्मेदारियों ",
         "projects": "परियोजनाओं ",
         "roles": "भूमिकाओं"
-    }
+    },
+   "techM":{
+      "responsiblities":{
+      },
+     "Projects":{
+      }
+     }
 }

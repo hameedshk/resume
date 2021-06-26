@@ -1,7 +1,7 @@
 {
     "summary": {
         "label": "SUMMARY",
-        "detail": "Enthusiastic multi faceted full stack software professional with 5 years of experience. Self motivated ,bilingual software developer with customer-driven nature and focus on working as part of team or an individual contributor."
+        "detail": "Enthusiastic multi faceted full stack software professional with 7 years of experience. Self motivated ,bilingual software developer with customer-driven nature and focus on working as part of team or an individual contributor."
     },
     "experience": {
         "label": "EXPERIENCE",
@@ -84,5 +84,40 @@
         "respons": "Responsibilities",
         "projects": "Projects",
         "roles": "Roles"
+    },
+    "techmahindra": {
+        "roles_response": {
+            "a": "Got coached in .NET related technologies (C#, ASP.NET,MS-SQL,WindowsForms,Javascript,jQuery,SAP EHS, technical support, etc).",
+            "b": "Worked as a Windows and Web Application Developer.",
+            "c": "Excelled in rapid application development and management of technological issues for assigned projects, earning the highest customer satisfaction rating for all software solutions delivered.",
+            "d": "Known for excellent troubleshooting skills – able to analyze code and engineer well-researched, cost-effective and responsive solutions."
+        },
+        "projects": {
+          "a" : "PriceChange and MarkDown(PCMD)-PCMD known as Price Change Mark Down, an application that is used to increase the sales of the existing products by changing the current price or mark down the current one",
+          "b"  :"Order Management and Transfer/Allocation is a Retail Management system where the retailers are allowed to create, modify and link the orders, allocations and transfers."
+         }
+    },
+    "scientificgames": {
+        "roles_response": {
+            "a": " Coached developers in advanced topics such as asynchronous and parallel programming and performance optimization of Entity Framework queries.",
+            "b": " Managed 5 projects of maintenance and greenfield development.",
+            "c": " Architected solutions for over 10 projects in mobile, desktop and web technologies.",
+            "d": " Developed solutions using .NET and JavaScript technologies."
+        },
+        "projects": {
+          "a" : "Enterprise Data Controller (EDC) is a centralized casino management application which acts as a master data creation and synchronization application which is used across all Enterprise system products.",
+          "b"  :"Site Controller (Insite) is a casino management application that helps manage a property’s day-to-day operations involving player, slot, and inventory data,which can be easily remotely installed and managed without any human intervention. It comes with an ability to be functional in situations where connectivity to the Central Enterprise Systems are lost."
+         }
+    },
+    "alten": {
+        "roles_response": {
+            "a": "Designed and developed highly efficient software for electrical load calculation for aircraft design architects.",
+            "b": "Had an experience in configuring CI/CD pipeline for complete SDLC, right from code checkin to build in open shift and deployable dockers.",
+            "c": " Worked as full stack developer including database design.",
+            "d": " Developed solutions using .NET and JavaScript technologies."
+        },
+        "projects": {
+          "a" : " ADELA- Airbus Digital Electrical Load Analysis is a digital solution that enables Electrical Design Office ,Customer Services to compute, analyze and deliver ELA to airlines.ELA is mandatory for Aircraft delivery and certification."
+         }
     }
 }

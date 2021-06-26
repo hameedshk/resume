@@ -1571,6 +1571,9 @@ p {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px !important;
+  color: #000 !important;
+  font-family: Arial !important;
 }
 
 .sidebar-wrapper {
@@ -1658,7 +1661,6 @@ p {
   display: flex;
   flex: 80%;
   flex-direction: column;
-  background: #fff;
   padding: 20px 30px 0 50px;
 }
 .main-wrapper .section-title {

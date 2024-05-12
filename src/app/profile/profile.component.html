@@ -195,7 +195,7 @@
                     <label class="text-center container-block-title" style="display: block;"
                         for="requestCulture_RequestCulture_UICulture_Name"><i class="fa fa-globe"></i>
                         {{ 'language_label' | translate}}</label>
-                    <select name="culture" (change)="useLanguage($event.target.value)" class="form-control"
+                    <select name="culture" (change)="useLanguage($any($event).target.value)" class="form-control"
                         id="requestCulture_RequestCulture_UICulture_Name">
                         <option selected="selected" value="en">English</option>
                         <option value="hi">Hindi</option>

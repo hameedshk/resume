@@ -1,18 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { DatePipe } from '@angular/common';
-import { TranslateService } from '@ngx-translate/core';
+import { CommonModule, DatePipe } from '@angular/common';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-profile',
+  standalone: true,
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss'],
+  imports: [CommonModule, RouterOutlet,TranslateModule],
   providers: [DatePipe]
 })
 export class ProfileComponent implements OnInit {
-  age: number;
+  age: number | undefined;
   birthdate: Date = new Date('08-10-1992');
-  techMahindraRolesResp:string[];
-  techMahindraProjects:string[];
+  techMahindraRolesResp:string[]| undefined;
+  techMahindraProjects:string[]| undefined;
+
   constructor(public datepipe: DatePipe, private translate: TranslateService) {
     translate.setDefaultLang('en');
   }
@@ -55,5 +59,4 @@ export class ProfileComponent implements OnInit {
     }
     return link;
   }
-
 }

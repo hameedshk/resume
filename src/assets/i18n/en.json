@@ -86,6 +86,7 @@
         "soft_engin": "Software Engineer",
         "senior_soft_engin": "Senior Software Engineer",
         "syst_engin": "System Engineer",
+        "product_owner": "Product Owner",
         "respons": "Responsibilities",
         "projects": "Projects",
         "roles": "Roles"
@@ -133,6 +134,15 @@
         },
         "projects": {
           "a" : "Developed software solutions that enabled users to manage there non personal accounts to connect to active directory , enhanced workflows of airbus commercial end users  to reset password seamlessly."
+         }
+    },
+    "airbus_po": {
+        "roles_response": {
+            "a": "Proficient in Identity and Access Management, adept at fulfilling stakeholder expectations and delivering results in an agile manner with a diverse team,independently",
+            "b": "Overseeing KPIs and OKRs, and taking proactive actions, administering backlogs, and ensuring efficient operations for all products"
+        },
+        "projects": {
+          "a" : "Idenity products COTS and green house solution and services"
          }
     }
 }

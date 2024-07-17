@@ -33,14 +33,12 @@ export class ProfileComponent implements OnInit {
     this.translate.get(['techmahindra.roles_response'][0]).subscribe(
       values => {
         this.techMahindraRolesResp = Object.keys(values).map(key => values[key]);
-        console.log(this.techMahindraRolesResp);
       }
    );
 
    this.translate.get(['techmahindra.projects'][0]).subscribe(
     values => {
       this.techMahindraProjects = Object.keys(values).map(key => values[key]);
-      console.log(this.techMahindraProjects);
     }
  );
   }

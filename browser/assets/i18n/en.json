@@ -1,10 +1,10 @@
 {
     "summary": {
         "label": "SUMMARY",
-        "detail": "Enriching Identity and access management experience for end users as a Product Owner with 3 years of experience in leading cross-functional agile teams to deliver innovative software solutions. Skilled in collaborating with stakeholders to prioritize product features based on customer feedback and market trends. Also Enthusiastic multi faceted full stack software developer with customer-driven nature"
+        "detail": "As a Product Owner, specialised in enriching Identity and Access Management experience for end users. Lead cross-functional agile teams to deliver innovative software solutions, collaborating closely with stakeholders to prioritize features based on business gooals and market trends. Additionally, enthusiastic multi-faceted full-stack software developer with a customer-centric approach."
     },
     "experience": {
-        "label": "EXPERIENCE",
+        "label": "EXPERIENCE",        
         "comp_1": {
             "name": "Tech Mahindra",
             "pos": "Software Engineer",
@@ -18,12 +18,17 @@
         "comp_3": {
             "name": "Alten India",
             "pos": "Senior Software Engineer",
-            "duration": "August 2018 - March 2020"
+            "duration": "Aug 2018 - Mar 2020"
         },
         "comp_4": {
             "name": "Airbus",
             "pos": "System Engineer",
-            "duration": "Apr 2020 - Present"
+            "duration": "Apr 2020 - Mar 2022"
+        },
+        "comp_curr": {
+            "name": "Airbus",
+            "pos": "Product Owner",
+            "duration": "Apr 2022 - Present"
         }
     },
     "education": {
@@ -81,6 +86,7 @@
         "soft_engin": "Software Engineer",
         "senior_soft_engin": "Senior Software Engineer",
         "syst_engin": "System Engineer",
+        "product_owner": "Product Owner",
         "respons": "Responsibilities",
         "projects": "Projects",
         "roles": "Roles"
@@ -118,6 +124,25 @@
         },
         "projects": {
           "a" : " ADELA- Airbus Digital Electrical Load Analysis is a digital solution that enables Electrical Design Office ,Customer Services to compute, analyze and deliver ELA to airlines.ELA is mandatory for Aircraft delivery and certification."
+         }
+    },
+    "airbus_se": {
+        "roles_response": {
+            "a": "Acted as liaison between stakeholders and development team by solving user Identity Access & Management problems by developing scalable products",
+            "b": "Involved in designing/migrating and implementing scalable solutions and transformation of IAM products.",
+            "c": "Ensured active deliveries of features and Managed technological issues for assigned projects, increasing customer satisfaction ratings."
+        },
+        "projects": {
+          "a" : "Developed software solutions that enabled users to manage there non personal accounts to connect to active directory , enhanced workflows of airbus commercial end users  to reset password seamlessly."
+         }
+    },
+    "airbus_po": {
+        "roles_response": {
+            "a": "Proficient in Identity and Access Management, adept at fulfilling stakeholder expectations and delivering results in an agile manner with a diverse team,independently",
+            "b": "Overseeing KPIs and OKRs, and taking proactive actions, administering backlogs, and ensuring efficient operations for all products"
+        },
+        "projects": {
+          "a" : "Idenity products COTS and green house solution and services"
          }
     }
 }

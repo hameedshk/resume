@@ -86,6 +86,7 @@
         "soft_engin": "सॉफ्टवेयर इंजीनियर",
         "senior_soft_engin": "वरिष्ठ सॉफ़्टवेयर इंजीनियर",
         "syst_engin": "प्रणाली इंजीनियर",
+        "product_owner": "Product Owner",
         "respons": "जिम्मेदारियों ",
         "projects": "परियोजनाओं ",
         "roles": "भूमिकाओं"
@@ -132,6 +133,15 @@
         },
         "projects": {
           "a" : "विकसित सॉफ़्टवेयर समाधान जो उपयोगकर्ताओं को सक्रिय निर्देशिका से कनेक्ट करने के लिए गैर-व्यक्तिगत खातों को प्रबंधित करने में सक्षम बनाता है, पासवर्ड को सहजता से रीसेट करने के लिए एयरबस वाणिज्यिक अंतिम उपयोगकर्ताओं के वर्कफ़्लो को बढ़ाता है।."
+         }
+    },
+    "airbus_po": {
+        "roles_response": {
+            "a": "Proficient in Identity and Access Management, adept at fulfilling stakeholder expectations and delivering results in an agile manner with a diverse team,independently",
+            "b": "Overseeing KPIs and OKRs, and taking proactive actions, administering backlogs, and ensuring efficient operations for all products"
+        },
+        "projects": {
+          "a" : "Idenity products COTS and green house solution and services"
          }
     }
 }
